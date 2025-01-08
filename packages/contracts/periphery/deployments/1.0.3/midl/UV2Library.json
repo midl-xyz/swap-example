@@ -1,0 +1,214 @@
+{
+  "address": "TODO: Add address after it get's deployed",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "factory_",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "factory",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "tokenA",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "tokenB",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "truePriceTokenA",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "truePriceTokenB",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "liquidityAmount",
+          "type": "uint256"
+        }
+      ],
+      "name": "getGasCostOfGetLiquidityValueAfterArbitrageToPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "tokenA",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "tokenB",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "liquidityAmount",
+          "type": "uint256"
+        }
+      ],
+      "name": "getLiquidityValue",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenAAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenBAmount",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "tokenA",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "tokenB",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "truePriceTokenA",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "truePriceTokenB",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "liquidityAmount",
+          "type": "uint256"
+        }
+      ],
+      "name": "getLiquidityValueAfterArbitrageToPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenAAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenBAmount",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "tokenA",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "tokenB",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "truePriceTokenA",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "truePriceTokenB",
+          "type": "uint256"
+        }
+      ],
+      "name": "getReservesAfterArbitrage",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "reserveA",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "reserveB",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x8b446126696736389859b4353a55e13276f7c9444cf13a0b754acd99bdea0acd",
+  "receipt": {
+    "to": null,
+    "from": "0x3BFc9CA7FA5D94461Dc96225D88CBb300B108d9E",
+    "contractAddress": "0x769b400E8f0CE513f14F94f13a541B138EE97b0e",
+    "transactionIndex": 54,
+    "gasUsed": "1120266",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x94fc5b0d0c7300de5d917a5c2c4d0e33e94179b0a4898d0cde3abe6f18ef02b9",
+    "transactionHash": "0x8b446126696736389859b4353a55e13276f7c9444cf13a0b754acd99bdea0acd",
+    "logs": [],
+    "blockNumber": 6237432,
+    "cumulativeGasUsed": "8648574",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": ["0xf8f59C5059A2C761eDef4e2C409AB582C0ADbD43"],
+  "numDeployments": 1,
+  "solcInputHash": "d2a5f87776de7270bc6cd6740f09413e",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  },
+  "storageLayout": {
+    "storage": [],
+    "types": null
+  }
+}

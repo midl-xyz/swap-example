@@ -1,0 +1,7 @@
+@layer reset, base, tokens, recipes, utilities;
+
+body > [data-rk] {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
