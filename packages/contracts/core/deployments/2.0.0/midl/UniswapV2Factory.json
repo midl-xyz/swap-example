@@ -1,5 +1,6 @@
 {
-  "address": "0x3B73a7eDc9dfE4847a20BcCfEf6Eb1c90439f5C9",
+  "address": "0xe6a83175396b513693c4Fc45F9e1EF87f159B864",
+  "contractName": "UniswapV2Factory",
   "abi": [
     {
       "inputs": [
